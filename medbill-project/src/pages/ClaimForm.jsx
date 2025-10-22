@@ -1,9 +1,3 @@
-import React from 'react'
-
-const ClaimForm = () => {
-  return (
-    <div>ClaimForm</div>
-  )
-}
-
-export default ClaimForm
+import React, {useState} from 'react';
+import api from '../api/api';
+import ClaimPreview from '../components/ClaimPreview';
